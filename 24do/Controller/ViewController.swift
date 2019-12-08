@@ -10,6 +10,7 @@ import UIKit
 import UserNotifications
 import CoreData
 
+
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
 
     @IBOutlet weak var tableView: UITableView!
@@ -182,7 +183,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             return cell
         }
         
-        return UITableViewCell()
+       
     }
     
     @objc func didAddTask(){

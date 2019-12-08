@@ -64,7 +64,7 @@ class ResizeableView: UIView {
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         print("Touches Ended")
         if let touch = touches.first {
-            let currentPoint = touch.location(in: self)
+            _ = touch.location(in: self)
             // do something with your currentPoint
             
             isResizingTopEdge = false

@@ -22,8 +22,233 @@
 		78AC37501F7F3AEE0024D11F /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AC374F1F7F3AEE0024D11F /* ViewControllerTableViewCell.swift */; };
 		78AC37521F7F405B0024D11F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AC37511F7F405B0024D11F /* GradientView.swift */; };
 		78D3D7C71F7E11C000866269 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D3D7C61F7E11C000866269 /* DataManager.swift */; };
-		C1A7667A38C5B85EBA864B7C /* Pods_24do.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD587678EF828B13D880BA27 /* Pods_24do.framework */; };
+		C380D140239A1000009CC041 /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D128239A0FFD009CC041 /* ReportVC.swift */; };
+		C380D141239A1000009CC041 /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D129239A0FFD009CC041 /* TimerVC.swift */; };
+		C380D142239A1000009CC041 /* CustomPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D12A239A0FFD009CC041 /* CustomPlanVC.swift */; };
+		C380D143239A1000009CC041 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D12B239A0FFD009CC041 /* HistoryVC.swift */; };
+		C380D144239A1000009CC041 /* DietOfThe Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D12C239A0FFD009CC041 /* DietOfThe Day.swift */; };
+		C380D145239A1000009CC041 /* CustomExerciseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D12D239A0FFD009CC041 /* CustomExerciseCell.swift */; };
+		C380D146239A1000009CC041 /* GymBackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D12E239A0FFE009CC041 /* GymBackCell.swift */; };
+		C380D147239A1000009CC041 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D12F239A0FFE009CC041 /* HomeViewController.swift */; };
+		C380D148239A1000009CC041 /* OneByOneMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D130239A0FFE009CC041 /* OneByOneMusic.swift */; };
+		C380D149239A1000009CC041 /* AllExercisesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D131239A0FFE009CC041 /* AllExercisesVC.swift */; };
+		C380D14A239A1000009CC041 /* GuideWorkoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D132239A0FFE009CC041 /* GuideWorkoutVC.swift */; };
+		C380D14B239A1000009CC041 /* GymBackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D133239A0FFE009CC041 /* GymBackVC.swift */; };
+		C380D14C239A1000009CC041 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D134239A0FFE009CC041 /* SlideInTransition.swift */; };
+		C380D14D239A1000009CC041 /* Customisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D135239A0FFE009CC041 /* Customisation.swift */; };
+		C380D14E239A1000009CC041 /* CustomWorkoutCelll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D136239A0FFF009CC041 /* CustomWorkoutCelll.swift */; };
+		C380D14F239A1000009CC041 /* DietPlanCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D137239A0FFF009CC041 /* DietPlanCell.swift */; };
+		C380D150239A1000009CC041 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D138239A0FFF009CC041 /* MenuViewController.swift */; };
+		C380D151239A1000009CC041 /* ExerciseDayNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D139239A0FFF009CC041 /* ExerciseDayNumber.swift */; };
+		C380D152239A1000009CC041 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D13A239A0FFF009CC041 /* CategoryCell.swift */; };
+		C380D153239A1000009CC041 /* AllExercisesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D13B239A0FFF009CC041 /* AllExercisesCell.swift */; };
+		C380D154239A1000009CC041 /* CustomWorkoutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D13C239A0FFF009CC041 /* CustomWorkoutVC.swift */; };
+		C380D155239A1000009CC041 /* DaysVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D13D239A1000009CC041 /* DaysVC.swift */; };
+		C380D156239A1000009CC041 /* MealPlanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D13E239A1000009CC041 /* MealPlanVC.swift */; };
+		C380D157239A1000009CC041 /* PlayVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C380D13F239A1000009CC041 /* PlayVideoVC.swift */; };
+		C380D16E239A11F5009CC041 /* YB3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D161239A11F3009CC041 /* YB3.mp4 */; };
+		C380D16F239A11F5009CC041 /* YB4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D162239A11F3009CC041 /* YB4.mp4 */; };
+		C380D170239A11F5009CC041 /* YB8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D163239A11F3009CC041 /* YB8.mp4 */; };
+		C380D171239A11F5009CC041 /* YB13.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D164239A11F3009CC041 /* YB13.mp4 */; };
+		C380D172239A11F5009CC041 /* YB7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D165239A11F3009CC041 /* YB7.mp4 */; };
+		C380D173239A11F5009CC041 /* YB6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D166239A11F4009CC041 /* YB6.mp4 */; };
+		C380D174239A11F5009CC041 /* YB9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D167239A11F4009CC041 /* YB9.mp4 */; };
+		C380D175239A11F5009CC041 /* YB12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D168239A11F4009CC041 /* YB12.mp4 */; };
+		C380D176239A11F5009CC041 /* YB1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D169239A11F4009CC041 /* YB1.mp4 */; };
+		C380D177239A11F5009CC041 /* YB10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D16A239A11F4009CC041 /* YB10.mp4 */; };
+		C380D178239A11F5009CC041 /* YB2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D16B239A11F5009CC041 /* YB2.mp4 */; };
+		C380D179239A11F5009CC041 /* YB5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D16C239A11F5009CC041 /* YB5.mp4 */; };
+		C380D17A239A11F5009CC041 /* YB11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D16D239A11F5009CC041 /* YB11.mp4 */; };
+		C380D189239A1209009CC041 /* TVV1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D17B239A1206009CC041 /* TVV1.mp4 */; };
+		C380D18A239A1209009CC041 /* TVV2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D17C239A1206009CC041 /* TVV2.mp4 */; };
+		C380D18B239A1209009CC041 /* TVV8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D17D239A1207009CC041 /* TVV8.mp4 */; };
+		C380D18C239A1209009CC041 /* TVV9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D17E239A1207009CC041 /* TVV9.mp4 */; };
+		C380D18D239A1209009CC041 /* TVV6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D17F239A1207009CC041 /* TVV6.mp4 */; };
+		C380D18E239A1209009CC041 /* TVV14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D180239A1208009CC041 /* TVV14.mp4 */; };
+		C380D18F239A1209009CC041 /* TVV5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D181239A1208009CC041 /* TVV5.mp4 */; };
+		C380D190239A1209009CC041 /* TVV11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D182239A1208009CC041 /* TVV11.mp4 */; };
+		C380D191239A1209009CC041 /* TVV4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D183239A1208009CC041 /* TVV4.mp4 */; };
+		C380D192239A1209009CC041 /* TVV12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D184239A1208009CC041 /* TVV12.mp4 */; };
+		C380D193239A1209009CC041 /* TVV3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D185239A1208009CC041 /* TVV3.mp4 */; };
+		C380D194239A1209009CC041 /* TVV7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D186239A1209009CC041 /* TVV7.mp4 */; };
+		C380D195239A1209009CC041 /* TVV10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D187239A1209009CC041 /* TVV10.mp4 */; };
+		C380D196239A1209009CC041 /* TVV13.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D188239A1209009CC041 /* TVV13.mp4 */; };
+		C380D1A5239A1213009CC041 /* SS4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D197239A1210009CC041 /* SS4.mp4 */; };
+		C380D1A6239A1213009CC041 /* SS1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D198239A1211009CC041 /* SS1.mp4 */; };
+		C380D1A7239A1213009CC041 /* SS10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D199239A1211009CC041 /* SS10.mp4 */; };
+		C380D1A8239A1213009CC041 /* SS6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D19A239A1211009CC041 /* SS6.mp4 */; };
+		C380D1A9239A1213009CC041 /* SS14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D19B239A1211009CC041 /* SS14.mp4 */; };
+		C380D1AA239A1213009CC041 /* SS3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D19C239A1212009CC041 /* SS3.mp4 */; };
+		C380D1AB239A1213009CC041 /* SS5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D19D239A1212009CC041 /* SS5.mp4 */; };
+		C380D1AC239A1213009CC041 /* SS7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D19E239A1212009CC041 /* SS7.mp4 */; };
+		C380D1AD239A1213009CC041 /* SS12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D19F239A1212009CC041 /* SS12.mp4 */; };
+		C380D1AE239A1213009CC041 /* SS11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1A0239A1212009CC041 /* SS11.mp4 */; };
+		C380D1AF239A1213009CC041 /* SS9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1A1239A1212009CC041 /* SS9.mp4 */; };
+		C380D1B0239A1213009CC041 /* SS2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1A2239A1213009CC041 /* SS2.mp4 */; };
+		C380D1B1239A1213009CC041 /* SS8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1A3239A1213009CC041 /* SS8.mp4 */; };
+		C380D1B2239A1213009CC041 /* SS13.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1A4239A1213009CC041 /* SS13.mp4 */; };
+		C380D1CA239A1269009CC041 /* CY3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1BF239A1267009CC041 /* CY3.mp4 */; };
+		C380D1CB239A1269009CC041 /* CY9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C0239A1267009CC041 /* CY9.mp4 */; };
+		C380D1CC239A1269009CC041 /* CY6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C1239A1267009CC041 /* CY6.mp4 */; };
+		C380D1CD239A1269009CC041 /* CY8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C2239A1268009CC041 /* CY8.mp4 */; };
+		C380D1CE239A1269009CC041 /* CY10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C3239A1268009CC041 /* CY10.mp4 */; };
+		C380D1CF239A1269009CC041 /* CY1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C4239A1268009CC041 /* CY1.mp4 */; };
+		C380D1D0239A1269009CC041 /* CY4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C5239A1268009CC041 /* CY4.mp4 */; };
+		C380D1D1239A1269009CC041 /* CY7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C6239A1268009CC041 /* CY7.mp4 */; };
+		C380D1D2239A1269009CC041 /* CY5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C7239A1268009CC041 /* CY5.mp4 */; };
+		C380D1D3239A1269009CC041 /* CY11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C8239A1269009CC041 /* CY11.mp4 */; };
+		C380D1D4239A1269009CC041 /* CY2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1C9239A1269009CC041 /* CY2.mp4 */; };
+		C380D21A239A128F009CC041 /* Wind-Relieving Pose Variation(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1D5239A1282009CC041 /* Wind-Relieving Pose Variation(Left) .mp4 */; };
+		C380D21B239A128F009CC041 /* Parallel Bar Dips .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1D6239A1282009CC041 /* Parallel Bar Dips .mp4 */; };
+		C380D21C239A128F009CC041 /* Cobra .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1D7239A1282009CC041 /* Cobra .mp4 */; };
+		C380D21D239A128F009CC041 /* Shoulder Expansion .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1D8239A1282009CC041 /* Shoulder Expansion .mp4 */; };
+		C380D21E239A128F009CC041 /* Twisted Chair(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1D9239A1282009CC041 /* Twisted Chair(Left) .mp4 */; };
+		C380D21F239A128F009CC041 /* Side Angle(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1DA239A1282009CC041 /* Side Angle(Left) .mp4 */; };
+		C380D220239A128F009CC041 /* Warrior II(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1DB239A1283009CC041 /* Warrior II(Left) .mp4 */; };
+		C380D221239A128F009CC041 /* One Arm Pushup .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1DC239A1283009CC041 /* One Arm Pushup .mp4 */; };
+		C380D222239A128F009CC041 /* Pec Deck Flys .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1DD239A1283009CC041 /* Pec Deck Flys .mp4 */; };
+		C380D223239A128F009CC041 /* Straight-Arm Lat Pull Down.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1DE239A1283009CC041 /* Straight-Arm Lat Pull Down.mp4 */; };
+		C380D224239A128F009CC041 /* Accomplished Pose With Eagle Arms(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1DF239A1283009CC041 /* Accomplished Pose With Eagle Arms(Left) .mp4 */; };
+		C380D225239A128F009CC041 /* Decline Dumbbell Bench Press .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E0239A1284009CC041 /* Decline Dumbbell Bench Press .mp4 */; };
+		C380D226239A128F009CC041 /* Warrior I .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E1239A1284009CC041 /* Warrior I .mp4 */; };
+		C380D227239A128F009CC041 /* Downward Facing Dog .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E2239A1284009CC041 /* Downward Facing Dog .mp4 */; };
+		C380D228239A128F009CC041 /* Push-Ups .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E3239A1284009CC041 /* Push-Ups .mp4 */; };
+		C380D229239A128F009CC041 /* Locust Pose Variation .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E4239A1284009CC041 /* Locust Pose Variation .mp4 */; };
+		C380D22A239A128F009CC041 /* Warrior III(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E5239A1285009CC041 /* Warrior III(Left) .mp4 */; };
+		C380D22B239A128F009CC041 /* Standig Forward Fold .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E6239A1285009CC041 /* Standig Forward Fold .mp4 */; };
+		C380D22C239A128F009CC041 /* Close Grip Bench Press .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E7239A1285009CC041 /* Close Grip Bench Press .mp4 */; };
+		C380D22D239A128F009CC041 /* One Arm Dumbbell Rows.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E8239A1285009CC041 /* One Arm Dumbbell Rows.mp4 */; };
+		C380D22E239A128F009CC041 /* Lat Pulldown.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1E9239A1285009CC041 /* Lat Pulldown.mp4 */; };
+		C380D22F239A128F009CC041 /* Bench Press.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1EA239A1286009CC041 /* Bench Press.mp4 */; };
+		C380D230239A128F009CC041 /* Incline Dumbbell Press .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1EB239A1286009CC041 /* Incline Dumbbell Press .mp4 */; };
+		C380D231239A128F009CC041 /* Seated Spinal Twist(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1EC239A1286009CC041 /* Seated Spinal Twist(Right) .mp4 */; };
+		C380D232239A128F009CC041 /* V-Bar Lat PullDown.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1ED239A1286009CC041 /* V-Bar Lat PullDown.mp4 */; };
+		C380D233239A128F009CC041 /* Low Lunges(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1EE239A1286009CC041 /* Low Lunges(Right) .mp4 */; };
+		C380D234239A128F009CC041 /* Warrior III(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1EF239A1286009CC041 /* Warrior III(Right) .mp4 */; };
+		C380D235239A128F009CC041 /* Prayer Pose .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F0239A1287009CC041 /* Prayer Pose .mp4 */; };
+		C380D236239A128F009CC041 /* Bridge(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F1239A1287009CC041 /* Bridge(Left) .mp4 */; };
+		C380D237239A128F009CC041 /* Warrior II(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F2239A1287009CC041 /* Warrior II(Right) .mp4 */; };
+		C380D238239A128F009CC041 /* Standing Side Bend .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F3239A1287009CC041 /* Standing Side Bend .mp4 */; };
+		C380D239239A128F009CC041 /* Machine T-Bar Rows.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F4239A1287009CC041 /* Machine T-Bar Rows.mp4 */; };
+		C380D23A239A128F009CC041 /* Seated Spinal Twist(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F5239A1288009CC041 /* Seated Spinal Twist(Left) .mp4 */; };
+		C380D23B239A128F009CC041 /* Superman.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F6239A1288009CC041 /* Superman.mp4 */; };
+		C380D23C239A128F009CC041 /* Bound Side Angle(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F7239A1288009CC041 /* Bound Side Angle(Left) .mp4 */; };
+		C380D23D239A128F009CC041 /* Tree(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F8239A1288009CC041 /* Tree(Right) .mp4 */; };
+		C380D23E239A128F009CC041 /* Low Lunges(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1F9239A1288009CC041 /* Low Lunges(Left) .mp4 */; };
+		C380D23F239A128F009CC041 /* Side Angle(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1FA239A1289009CC041 /* Side Angle(Right) .mp4 */; };
+		C380D240239A128F009CC041 /* Single Leg Downward Dog(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1FB239A1289009CC041 /* Single Leg Downward Dog(Left) .mp4 */; };
+		C380D241239A128F009CC041 /* Yoga Squat .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1FC239A1289009CC041 /* Yoga Squat .mp4 */; };
+		C380D242239A128F009CC041 /* Cat Camel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1FD239A1289009CC041 /* Cat Camel.mp4 */; };
+		C380D243239A128F009CC041 /* Cabel CrossOver Flys.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1FE239A1289009CC041 /* Cabel CrossOver Flys.mp4 */; };
+		C380D244239A128F009CC041 /* Decline Press .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D1FF239A1289009CC041 /* Decline Press .mp4 */; };
+		C380D245239A128F009CC041 /* Twisted Chair(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D200239A128A009CC041 /* Twisted Chair(Right) .mp4 */; };
+		C380D246239A128F009CC041 /* Boat .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D201239A128A009CC041 /* Boat .mp4 */; };
+		C380D247239A128F009CC041 /* Dumbbell Pullovers .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D202239A128A009CC041 /* Dumbbell Pullovers .mp4 */; };
+		C380D248239A128F009CC041 /* Cabel Incline Pushdown.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D203239A128A009CC041 /* Cabel Incline Pushdown.mp4 */; };
+		C380D249239A128F009CC041 /* Bent Over Row.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D204239A128A009CC041 /* Bent Over Row.mp4 */; };
+		C380D24A239A128F009CC041 /* Incline Press .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D205239A128B009CC041 /* Incline Press .mp4 */; };
+		C380D24B239A128F009CC041 /* Dumbbell Press .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D206239A128B009CC041 /* Dumbbell Press .mp4 */; };
+		C380D24C239A128F009CC041 /* inverted rows.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D207239A128B009CC041 /* inverted rows.mp4 */; };
+		C380D24D239A128F009CC041 /* Bridge(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D208239A128B009CC041 /* Bridge(Right) .mp4 */; };
+		C380D24E239A128F009CC041 /* Accomplished Pose With Eagle Arms(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D209239A128B009CC041 /* Accomplished Pose With Eagle Arms(Right) .mp4 */; };
+		C380D24F239A128F009CC041 /* Barbell PullOver.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D20A239A128C009CC041 /* Barbell PullOver.mp4 */; };
+		C380D250239A128F009CC041 /* Big Toes Pose Variation .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D20B239A128C009CC041 /* Big Toes Pose Variation .mp4 */; };
+		C380D251239A128F009CC041 /* Childs Pose .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D20C239A128C009CC041 /* Childs Pose .mp4 */; };
+		C380D252239A128F009CC041 /* Machine Reverse Fly.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D20D239A128C009CC041 /* Machine Reverse Fly.mp4 */; };
+		C380D253239A128F009CC041 /* Dumbbell Flys .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D20E239A128D009CC041 /* Dumbbell Flys .mp4 */; };
+		C380D254239A128F009CC041 /* Back Lat Pulldown.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D20F239A128D009CC041 /* Back Lat Pulldown.mp4 */; };
+		C380D255239A128F009CC041 /* Pull ups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D210239A128D009CC041 /* Pull ups.mp4 */; };
+		C380D256239A128F009CC041 /* Forearm Plank .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D211239A128D009CC041 /* Forearm Plank .mp4 */; };
+		C380D257239A128F009CC041 /* Seated Side Bend(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D212239A128D009CC041 /* Seated Side Bend(Left) .mp4 */; };
+		C380D258239A128F009CC041 /* Seated Side Bend(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D213239A128E009CC041 /* Seated Side Bend(Right) .mp4 */; };
+		C380D259239A128F009CC041 /* Bound Side Angle(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D214239A128E009CC041 /* Bound Side Angle(Right) .mp4 */; };
+		C380D25A239A128F009CC041 /* Chin-ups.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D215239A128E009CC041 /* Chin-ups.mp4 */; };
+		C380D25B239A128F009CC041 /* Single Leg Downward Dog(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D216239A128E009CC041 /* Single Leg Downward Dog(Right) .mp4 */; };
+		C380D25C239A128F009CC041 /* Seated Cable Rows.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D217239A128E009CC041 /* Seated Cable Rows.mp4 */; };
+		C380D25D239A128F009CC041 /* Tree(Left) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D218239A128E009CC041 /* Tree(Left) .mp4 */; };
+		C380D25E239A128F009CC041 /* Incline Dumbbell Flys .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D219239A128F009CC041 /* Incline Dumbbell Flys .mp4 */; };
+		C380D264239A132F009CC041 /* timer.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D263239A132F009CC041 /* timer.mp4 */; };
+		C380D266239A1336009CC041 /* chuttu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C380D265239A1336009CC041 /* chuttu.mp3 */; };
+		C380D268239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D267239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 */; };
+		C39FD240239B3D3C003C1B05 /* Pods_24do.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD587678EF828B13D880BA27 /* Pods_24do.framework */; };
+		C39FD241239B3D3C003C1B05 /* Pods_24do.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD587678EF828B13D880BA27 /* Pods_24do.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C39FD24A239B5473003C1B05 /* Setting VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FD249239B5473003C1B05 /* Setting VC.swift */; };
+		C39FD24C239B5765003C1B05 /* private_policy.html in Resources */ = {isa = PBXBuildFile; fileRef = C39FD24B239B5764003C1B05 /* private_policy.html */; };
+		C39FD24E239B596D003C1B05 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FD24D239B596D003C1B05 /* WebViewVC.swift */; };
+		C3AFFC75239A0DA3000CD0B7 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AFFC68239A0D33000CD0B7 /* SQLite.framework */; };
+		C3AFFC76239A0DA3000CD0B7 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3AFFC68239A0D33000CD0B7 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C3E07814239C5FB100D2AB5F /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07810239C5FAA00D2AB5F /* GoogleAppMeasurement.framework */; };
+		C3E07815239C5FB100D2AB5F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07811239C5FAF00D2AB5F /* GoogleMobileAds.framework */; };
+		C3E07816239C5FB100D2AB5F /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07812239C5FB000D2AB5F /* nanopb.framework */; };
+		C3E07817239C5FB100D2AB5F /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07813239C5FB100D2AB5F /* GoogleUtilities.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3AFFC67239A0D33000CD0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		C3AFFC69239A0D33000CD0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		C3AFFC6B239A0D33000CD0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		C3AFFC6D239A0D33000CD0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		C3AFFC6F239A0D33000CD0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		C3AFFC71239A0D33000CD0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		C3AFFC73239A0D33000CD0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3AFFC77239A0DA3000CD0B7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C3AFFC76239A0DA3000CD0B7 /* SQLite.framework in Embed Frameworks */,
+				C39FD241239B3D3C003C1B05 /* Pods_24do.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0C3E0FAEB4E0BC3A92FE5D44 /* Pods-24do.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-24do.debug.xcconfig"; path = "Pods/Target Support Files/Pods-24do/Pods-24do.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,6 +272,169 @@
 		78AC374F1F7F3AEE0024D11F /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		78AC37511F7F405B0024D11F /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		78D3D7C61F7E11C000866269 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C380D128239A0FFD009CC041 /* ReportVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		C380D129239A0FFD009CC041 /* TimerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		C380D12A239A0FFD009CC041 /* CustomPlanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPlanVC.swift; sourceTree = "<group>"; };
+		C380D12B239A0FFD009CC041 /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		C380D12C239A0FFD009CC041 /* DietOfThe Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DietOfThe Day.swift"; sourceTree = "<group>"; };
+		C380D12D239A0FFD009CC041 /* CustomExerciseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExerciseCell.swift; sourceTree = "<group>"; };
+		C380D12E239A0FFE009CC041 /* GymBackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymBackCell.swift; sourceTree = "<group>"; };
+		C380D12F239A0FFE009CC041 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C380D130239A0FFE009CC041 /* OneByOneMusic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneByOneMusic.swift; sourceTree = "<group>"; };
+		C380D131239A0FFE009CC041 /* AllExercisesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllExercisesVC.swift; sourceTree = "<group>"; };
+		C380D132239A0FFE009CC041 /* GuideWorkoutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideWorkoutVC.swift; sourceTree = "<group>"; };
+		C380D133239A0FFE009CC041 /* GymBackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GymBackVC.swift; sourceTree = "<group>"; };
+		C380D134239A0FFE009CC041 /* SlideInTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		C380D135239A0FFE009CC041 /* Customisation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customisation.swift; sourceTree = "<group>"; };
+		C380D136239A0FFF009CC041 /* CustomWorkoutCelll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWorkoutCelll.swift; sourceTree = "<group>"; };
+		C380D137239A0FFF009CC041 /* DietPlanCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietPlanCell.swift; sourceTree = "<group>"; };
+		C380D138239A0FFF009CC041 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C380D139239A0FFF009CC041 /* ExerciseDayNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseDayNumber.swift; sourceTree = "<group>"; };
+		C380D13A239A0FFF009CC041 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		C380D13B239A0FFF009CC041 /* AllExercisesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllExercisesCell.swift; sourceTree = "<group>"; };
+		C380D13C239A0FFF009CC041 /* CustomWorkoutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomWorkoutVC.swift; sourceTree = "<group>"; };
+		C380D13D239A1000009CC041 /* DaysVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DaysVC.swift; sourceTree = "<group>"; };
+		C380D13E239A1000009CC041 /* MealPlanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlanVC.swift; sourceTree = "<group>"; };
+		C380D13F239A1000009CC041 /* PlayVideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVideoVC.swift; sourceTree = "<group>"; };
+		C380D161239A11F3009CC041 /* YB3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB3.mp4; sourceTree = "<group>"; };
+		C380D162239A11F3009CC041 /* YB4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB4.mp4; sourceTree = "<group>"; };
+		C380D163239A11F3009CC041 /* YB8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB8.mp4; sourceTree = "<group>"; };
+		C380D164239A11F3009CC041 /* YB13.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB13.mp4; sourceTree = "<group>"; };
+		C380D165239A11F3009CC041 /* YB7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB7.mp4; sourceTree = "<group>"; };
+		C380D166239A11F4009CC041 /* YB6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB6.mp4; sourceTree = "<group>"; };
+		C380D167239A11F4009CC041 /* YB9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB9.mp4; sourceTree = "<group>"; };
+		C380D168239A11F4009CC041 /* YB12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB12.mp4; sourceTree = "<group>"; };
+		C380D169239A11F4009CC041 /* YB1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB1.mp4; sourceTree = "<group>"; };
+		C380D16A239A11F4009CC041 /* YB10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB10.mp4; sourceTree = "<group>"; };
+		C380D16B239A11F5009CC041 /* YB2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB2.mp4; sourceTree = "<group>"; };
+		C380D16C239A11F5009CC041 /* YB5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB5.mp4; sourceTree = "<group>"; };
+		C380D16D239A11F5009CC041 /* YB11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = YB11.mp4; sourceTree = "<group>"; };
+		C380D17B239A1206009CC041 /* TVV1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV1.mp4; sourceTree = "<group>"; };
+		C380D17C239A1206009CC041 /* TVV2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV2.mp4; sourceTree = "<group>"; };
+		C380D17D239A1207009CC041 /* TVV8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV8.mp4; sourceTree = "<group>"; };
+		C380D17E239A1207009CC041 /* TVV9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV9.mp4; sourceTree = "<group>"; };
+		C380D17F239A1207009CC041 /* TVV6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV6.mp4; sourceTree = "<group>"; };
+		C380D180239A1208009CC041 /* TVV14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV14.mp4; sourceTree = "<group>"; };
+		C380D181239A1208009CC041 /* TVV5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV5.mp4; sourceTree = "<group>"; };
+		C380D182239A1208009CC041 /* TVV11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV11.mp4; sourceTree = "<group>"; };
+		C380D183239A1208009CC041 /* TVV4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV4.mp4; sourceTree = "<group>"; };
+		C380D184239A1208009CC041 /* TVV12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV12.mp4; sourceTree = "<group>"; };
+		C380D185239A1208009CC041 /* TVV3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV3.mp4; sourceTree = "<group>"; };
+		C380D186239A1209009CC041 /* TVV7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV7.mp4; sourceTree = "<group>"; };
+		C380D187239A1209009CC041 /* TVV10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV10.mp4; sourceTree = "<group>"; };
+		C380D188239A1209009CC041 /* TVV13.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = TVV13.mp4; sourceTree = "<group>"; };
+		C380D197239A1210009CC041 /* SS4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS4.mp4; sourceTree = "<group>"; };
+		C380D198239A1211009CC041 /* SS1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS1.mp4; sourceTree = "<group>"; };
+		C380D199239A1211009CC041 /* SS10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS10.mp4; sourceTree = "<group>"; };
+		C380D19A239A1211009CC041 /* SS6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS6.mp4; sourceTree = "<group>"; };
+		C380D19B239A1211009CC041 /* SS14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS14.mp4; sourceTree = "<group>"; };
+		C380D19C239A1212009CC041 /* SS3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS3.mp4; sourceTree = "<group>"; };
+		C380D19D239A1212009CC041 /* SS5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS5.mp4; sourceTree = "<group>"; };
+		C380D19E239A1212009CC041 /* SS7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS7.mp4; sourceTree = "<group>"; };
+		C380D19F239A1212009CC041 /* SS12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS12.mp4; sourceTree = "<group>"; };
+		C380D1A0239A1212009CC041 /* SS11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS11.mp4; sourceTree = "<group>"; };
+		C380D1A1239A1212009CC041 /* SS9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS9.mp4; sourceTree = "<group>"; };
+		C380D1A2239A1213009CC041 /* SS2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS2.mp4; sourceTree = "<group>"; };
+		C380D1A3239A1213009CC041 /* SS8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS8.mp4; sourceTree = "<group>"; };
+		C380D1A4239A1213009CC041 /* SS13.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SS13.mp4; sourceTree = "<group>"; };
+		C380D1BF239A1267009CC041 /* CY3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY3.mp4; sourceTree = "<group>"; };
+		C380D1C0239A1267009CC041 /* CY9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY9.mp4; sourceTree = "<group>"; };
+		C380D1C1239A1267009CC041 /* CY6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY6.mp4; sourceTree = "<group>"; };
+		C380D1C2239A1268009CC041 /* CY8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY8.mp4; sourceTree = "<group>"; };
+		C380D1C3239A1268009CC041 /* CY10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY10.mp4; sourceTree = "<group>"; };
+		C380D1C4239A1268009CC041 /* CY1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY1.mp4; sourceTree = "<group>"; };
+		C380D1C5239A1268009CC041 /* CY4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY4.mp4; sourceTree = "<group>"; };
+		C380D1C6239A1268009CC041 /* CY7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY7.mp4; sourceTree = "<group>"; };
+		C380D1C7239A1268009CC041 /* CY5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY5.mp4; sourceTree = "<group>"; };
+		C380D1C8239A1269009CC041 /* CY11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY11.mp4; sourceTree = "<group>"; };
+		C380D1C9239A1269009CC041 /* CY2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CY2.mp4; sourceTree = "<group>"; };
+		C380D1D5239A1282009CC041 /* Wind-Relieving Pose Variation(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wind-Relieving Pose Variation(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1D6239A1282009CC041 /* Parallel Bar Dips .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Parallel Bar Dips .mp4"; sourceTree = "<group>"; };
+		C380D1D7239A1282009CC041 /* Cobra .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cobra .mp4"; sourceTree = "<group>"; };
+		C380D1D8239A1282009CC041 /* Shoulder Expansion .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shoulder Expansion .mp4"; sourceTree = "<group>"; };
+		C380D1D9239A1282009CC041 /* Twisted Chair(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Twisted Chair(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1DA239A1282009CC041 /* Side Angle(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Side Angle(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1DB239A1283009CC041 /* Warrior II(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warrior II(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1DC239A1283009CC041 /* One Arm Pushup .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "One Arm Pushup .mp4"; sourceTree = "<group>"; };
+		C380D1DD239A1283009CC041 /* Pec Deck Flys .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pec Deck Flys .mp4"; sourceTree = "<group>"; };
+		C380D1DE239A1283009CC041 /* Straight-Arm Lat Pull Down.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Straight-Arm Lat Pull Down.mp4"; sourceTree = "<group>"; };
+		C380D1DF239A1283009CC041 /* Accomplished Pose With Eagle Arms(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Accomplished Pose With Eagle Arms(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1E0239A1284009CC041 /* Decline Dumbbell Bench Press .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Decline Dumbbell Bench Press .mp4"; sourceTree = "<group>"; };
+		C380D1E1239A1284009CC041 /* Warrior I .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warrior I .mp4"; sourceTree = "<group>"; };
+		C380D1E2239A1284009CC041 /* Downward Facing Dog .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Downward Facing Dog .mp4"; sourceTree = "<group>"; };
+		C380D1E3239A1284009CC041 /* Push-Ups .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Push-Ups .mp4"; sourceTree = "<group>"; };
+		C380D1E4239A1284009CC041 /* Locust Pose Variation .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Locust Pose Variation .mp4"; sourceTree = "<group>"; };
+		C380D1E5239A1285009CC041 /* Warrior III(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warrior III(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1E6239A1285009CC041 /* Standig Forward Fold .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Standig Forward Fold .mp4"; sourceTree = "<group>"; };
+		C380D1E7239A1285009CC041 /* Close Grip Bench Press .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Close Grip Bench Press .mp4"; sourceTree = "<group>"; };
+		C380D1E8239A1285009CC041 /* One Arm Dumbbell Rows.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "One Arm Dumbbell Rows.mp4"; sourceTree = "<group>"; };
+		C380D1E9239A1285009CC041 /* Lat Pulldown.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lat Pulldown.mp4"; sourceTree = "<group>"; };
+		C380D1EA239A1286009CC041 /* Bench Press.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bench Press.mp4"; sourceTree = "<group>"; };
+		C380D1EB239A1286009CC041 /* Incline Dumbbell Press .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Incline Dumbbell Press .mp4"; sourceTree = "<group>"; };
+		C380D1EC239A1286009CC041 /* Seated Spinal Twist(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seated Spinal Twist(Right) .mp4"; sourceTree = "<group>"; };
+		C380D1ED239A1286009CC041 /* V-Bar Lat PullDown.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "V-Bar Lat PullDown.mp4"; sourceTree = "<group>"; };
+		C380D1EE239A1286009CC041 /* Low Lunges(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Low Lunges(Right) .mp4"; sourceTree = "<group>"; };
+		C380D1EF239A1286009CC041 /* Warrior III(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warrior III(Right) .mp4"; sourceTree = "<group>"; };
+		C380D1F0239A1287009CC041 /* Prayer Pose .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Prayer Pose .mp4"; sourceTree = "<group>"; };
+		C380D1F1239A1287009CC041 /* Bridge(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bridge(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1F2239A1287009CC041 /* Warrior II(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Warrior II(Right) .mp4"; sourceTree = "<group>"; };
+		C380D1F3239A1287009CC041 /* Standing Side Bend .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Standing Side Bend .mp4"; sourceTree = "<group>"; };
+		C380D1F4239A1287009CC041 /* Machine T-Bar Rows.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Machine T-Bar Rows.mp4"; sourceTree = "<group>"; };
+		C380D1F5239A1288009CC041 /* Seated Spinal Twist(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seated Spinal Twist(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1F6239A1288009CC041 /* Superman.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Superman.mp4; sourceTree = "<group>"; };
+		C380D1F7239A1288009CC041 /* Bound Side Angle(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bound Side Angle(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1F8239A1288009CC041 /* Tree(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tree(Right) .mp4"; sourceTree = "<group>"; };
+		C380D1F9239A1288009CC041 /* Low Lunges(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Low Lunges(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1FA239A1289009CC041 /* Side Angle(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Side Angle(Right) .mp4"; sourceTree = "<group>"; };
+		C380D1FB239A1289009CC041 /* Single Leg Downward Dog(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Single Leg Downward Dog(Left) .mp4"; sourceTree = "<group>"; };
+		C380D1FC239A1289009CC041 /* Yoga Squat .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yoga Squat .mp4"; sourceTree = "<group>"; };
+		C380D1FD239A1289009CC041 /* Cat Camel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cat Camel.mp4"; sourceTree = "<group>"; };
+		C380D1FE239A1289009CC041 /* Cabel CrossOver Flys.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabel CrossOver Flys.mp4"; sourceTree = "<group>"; };
+		C380D1FF239A1289009CC041 /* Decline Press .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Decline Press .mp4"; sourceTree = "<group>"; };
+		C380D200239A128A009CC041 /* Twisted Chair(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Twisted Chair(Right) .mp4"; sourceTree = "<group>"; };
+		C380D201239A128A009CC041 /* Boat .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Boat .mp4"; sourceTree = "<group>"; };
+		C380D202239A128A009CC041 /* Dumbbell Pullovers .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dumbbell Pullovers .mp4"; sourceTree = "<group>"; };
+		C380D203239A128A009CC041 /* Cabel Incline Pushdown.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabel Incline Pushdown.mp4"; sourceTree = "<group>"; };
+		C380D204239A128A009CC041 /* Bent Over Row.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bent Over Row.mp4"; sourceTree = "<group>"; };
+		C380D205239A128B009CC041 /* Incline Press .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Incline Press .mp4"; sourceTree = "<group>"; };
+		C380D206239A128B009CC041 /* Dumbbell Press .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dumbbell Press .mp4"; sourceTree = "<group>"; };
+		C380D207239A128B009CC041 /* inverted rows.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "inverted rows.mp4"; sourceTree = "<group>"; };
+		C380D208239A128B009CC041 /* Bridge(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bridge(Right) .mp4"; sourceTree = "<group>"; };
+		C380D209239A128B009CC041 /* Accomplished Pose With Eagle Arms(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Accomplished Pose With Eagle Arms(Right) .mp4"; sourceTree = "<group>"; };
+		C380D20A239A128C009CC041 /* Barbell PullOver.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barbell PullOver.mp4"; sourceTree = "<group>"; };
+		C380D20B239A128C009CC041 /* Big Toes Pose Variation .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Big Toes Pose Variation .mp4"; sourceTree = "<group>"; };
+		C380D20C239A128C009CC041 /* Childs Pose .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Childs Pose .mp4"; sourceTree = "<group>"; };
+		C380D20D239A128C009CC041 /* Machine Reverse Fly.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Machine Reverse Fly.mp4"; sourceTree = "<group>"; };
+		C380D20E239A128D009CC041 /* Dumbbell Flys .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dumbbell Flys .mp4"; sourceTree = "<group>"; };
+		C380D20F239A128D009CC041 /* Back Lat Pulldown.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Back Lat Pulldown.mp4"; sourceTree = "<group>"; };
+		C380D210239A128D009CC041 /* Pull ups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pull ups.mp4"; sourceTree = "<group>"; };
+		C380D211239A128D009CC041 /* Forearm Plank .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Forearm Plank .mp4"; sourceTree = "<group>"; };
+		C380D212239A128D009CC041 /* Seated Side Bend(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seated Side Bend(Left) .mp4"; sourceTree = "<group>"; };
+		C380D213239A128E009CC041 /* Seated Side Bend(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seated Side Bend(Right) .mp4"; sourceTree = "<group>"; };
+		C380D214239A128E009CC041 /* Bound Side Angle(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bound Side Angle(Right) .mp4"; path = "../../Downloads/Slide-In-Transition-master/Dynamic Yoga/Bound Side Angle(Right) .mp4"; sourceTree = "<group>"; };
+		C380D215239A128E009CC041 /* Chin-ups.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chin-ups.mp4"; sourceTree = "<group>"; };
+		C380D216239A128E009CC041 /* Single Leg Downward Dog(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Single Leg Downward Dog(Right) .mp4"; sourceTree = "<group>"; };
+		C380D217239A128E009CC041 /* Seated Cable Rows.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Seated Cable Rows.mp4"; sourceTree = "<group>"; };
+		C380D218239A128E009CC041 /* Tree(Left) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tree(Left) .mp4"; sourceTree = "<group>"; };
+		C380D219239A128F009CC041 /* Incline Dumbbell Flys .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Incline Dumbbell Flys .mp4"; sourceTree = "<group>"; };
+		C380D260239A12DF009CC041 /* Bound Side Angle(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bound Side Angle(Right) .mp4"; sourceTree = "<group>"; };
+		C380D261239A12FA009CC041 /* Bound Side Angle(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bound Side Angle(Right) .mp4"; path = "../../../Downloads/Slide-In-Transition-master/Dynamic Yoga/Bound Side Angle(Right) .mp4"; sourceTree = "<group>"; };
+		C380D262239A131C009CC041 /* Bound Side Angle(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bound Side Angle(Right) .mp4"; path = "../../../Downloads/Slide-In-Transition-master/Dynamic Yoga/Bound Side Angle(Right) .mp4"; sourceTree = "<group>"; };
+		C380D263239A132F009CC041 /* timer.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = timer.mp4; sourceTree = "<group>"; };
+		C380D265239A1336009CC041 /* chuttu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chuttu.mp3; sourceTree = "<group>"; };
+		C380D267239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wind-Relieving Pose Variation(Right) .mp4"; sourceTree = "<group>"; };
+		C39FD249239B5473003C1B05 /* Setting VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Setting VC.swift"; path = "Remaining Project/Setting VC.swift"; sourceTree = "<group>"; };
+		C39FD24B239B5764003C1B05 /* private_policy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = private_policy.html; sourceTree = "<group>"; };
+		C39FD24D239B596D003C1B05 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebViewVC.swift; path = "Remaining Project/WebViewVC.swift"; sourceTree = "<group>"; };
+		C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-prepare-0.12.1/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		C3E077FA239C5C5000D2AB5F /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		C3E077FB239C5C5100D2AB5F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		C3E077FC239C5C5500D2AB5F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		C3E077FD239C5C5600D2AB5F /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		C3E07810239C5FAA00D2AB5F /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		C3E07811239C5FAF00D2AB5F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		C3E07812239C5FB000D2AB5F /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		C3E07813239C5FB100D2AB5F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
 		CD587678EF828B13D880BA27 /* Pods_24do.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24do.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -55,7 +443,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1A7667A38C5B85EBA864B7C /* Pods_24do.framework in Frameworks */,
+				C3E07817239C5FB100D2AB5F /* GoogleUtilities.framework in Frameworks */,
+				C3AFFC75239A0DA3000CD0B7 /* SQLite.framework in Frameworks */,
+				C39FD240239B3D3C003C1B05 /* Pods_24do.framework in Frameworks */,
+				C3E07816239C5FB100D2AB5F /* nanopb.framework in Frameworks */,
+				C3E07815239C5FB100D2AB5F /* GoogleMobileAds.framework in Frameworks */,
+				C3E07814239C5FB100D2AB5F /* GoogleAppMeasurement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +458,22 @@
 		781D01991F7B518A003385EE = {
 			isa = PBXGroup;
 			children = (
+				C3E07810239C5FAA00D2AB5F /* GoogleAppMeasurement.framework */,
+				C3E07811239C5FAF00D2AB5F /* GoogleMobileAds.framework */,
+				C3E07813239C5FB100D2AB5F /* GoogleUtilities.framework */,
+				C3E07812239C5FB000D2AB5F /* nanopb.framework */,
+				C380D267239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 */,
+				C380D265239A1336009CC041 /* chuttu.mp3 */,
+				C380D263239A132F009CC041 /* timer.mp4 */,
+				C39FD24B239B5764003C1B05 /* private_policy.html */,
+				C380D25F239A1298009CC041 /* Videos */,
+				C380D214239A128E009CC041 /* Bound Side Angle(Right) .mp4 */,
 				781D01A41F7B518A003385EE /* 24do */,
+				C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */,
+				C3E077FA239C5C5000D2AB5F /* GoogleAppMeasurement.framework */,
+				C3E077FC239C5C5500D2AB5F /* GoogleMobileAds.framework */,
+				C3E077FB239C5C5100D2AB5F /* GoogleUtilities.framework */,
+				C3E077FD239C5C5600D2AB5F /* nanopb.framework */,
 				781D01A31F7B518A003385EE /* Products */,
 				D06A51A833F8EA53ACEE23F5 /* Pods */,
 				DD7363724B474F48200F6772 /* Frameworks */,
@@ -89,10 +497,13 @@
 				781D01A51F7B518A003385EE /* AppDelegate.swift */,
 				781D01A91F7B518A003385EE /* Main.storyboard */,
 				781D01AF1F7B518A003385EE /* Assets.xcassets */,
+				C380D120239A0FD6009CC041 /* Remaining Project */,
 				781D01B11F7B518A003385EE /* LaunchScreen.storyboard */,
 				781D01B41F7B518A003385EE /* Info.plist */,
 				784F96751F81C00E0035D673 /* 24do.xcdatamodeld */,
 				78D3D7C61F7E11C000866269 /* DataManager.swift */,
+				C39FD249239B5473003C1B05 /* Setting VC.swift */,
+				C39FD24D239B596D003C1B05 /* WebViewVC.swift */,
 			);
 			path = 24do;
 			sourceTree = "<group>";
@@ -127,6 +538,181 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		C380D120239A0FD6009CC041 /* Remaining Project */ = {
+			isa = PBXGroup;
+			children = (
+				C380D13B239A0FFF009CC041 /* AllExercisesCell.swift */,
+				C380D131239A0FFE009CC041 /* AllExercisesVC.swift */,
+				C380D13A239A0FFF009CC041 /* CategoryCell.swift */,
+				C380D12D239A0FFD009CC041 /* CustomExerciseCell.swift */,
+				C380D135239A0FFE009CC041 /* Customisation.swift */,
+				C380D12A239A0FFD009CC041 /* CustomPlanVC.swift */,
+				C380D136239A0FFF009CC041 /* CustomWorkoutCelll.swift */,
+				C380D13C239A0FFF009CC041 /* CustomWorkoutVC.swift */,
+				C380D13D239A1000009CC041 /* DaysVC.swift */,
+				C380D12C239A0FFD009CC041 /* DietOfThe Day.swift */,
+				C380D137239A0FFF009CC041 /* DietPlanCell.swift */,
+				C380D139239A0FFF009CC041 /* ExerciseDayNumber.swift */,
+				C380D132239A0FFE009CC041 /* GuideWorkoutVC.swift */,
+				C380D12E239A0FFE009CC041 /* GymBackCell.swift */,
+				C380D133239A0FFE009CC041 /* GymBackVC.swift */,
+				C380D12B239A0FFD009CC041 /* HistoryVC.swift */,
+				C380D12F239A0FFE009CC041 /* HomeViewController.swift */,
+				C380D13E239A1000009CC041 /* MealPlanVC.swift */,
+				C380D138239A0FFF009CC041 /* MenuViewController.swift */,
+				C380D130239A0FFE009CC041 /* OneByOneMusic.swift */,
+				C380D13F239A1000009CC041 /* PlayVideoVC.swift */,
+				C380D128239A0FFD009CC041 /* ReportVC.swift */,
+				C380D134239A0FFE009CC041 /* SlideInTransition.swift */,
+				C380D129239A0FFD009CC041 /* TimerVC.swift */,
+			);
+			path = "Remaining Project";
+			sourceTree = "<group>";
+		};
+		C380D25F239A1298009CC041 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				C380D261239A12FA009CC041 /* Bound Side Angle(Right) .mp4 */,
+				C380D262239A131C009CC041 /* Bound Side Angle(Right) .mp4 */,
+				C380D1DF239A1283009CC041 /* Accomplished Pose With Eagle Arms(Left) .mp4 */,
+				C380D209239A128B009CC041 /* Accomplished Pose With Eagle Arms(Right) .mp4 */,
+				C380D20F239A128D009CC041 /* Back Lat Pulldown.mp4 */,
+				C380D20A239A128C009CC041 /* Barbell PullOver.mp4 */,
+				C380D1EA239A1286009CC041 /* Bench Press.mp4 */,
+				C380D204239A128A009CC041 /* Bent Over Row.mp4 */,
+				C380D20B239A128C009CC041 /* Big Toes Pose Variation .mp4 */,
+				C380D201239A128A009CC041 /* Boat .mp4 */,
+				C380D1F7239A1288009CC041 /* Bound Side Angle(Left) .mp4 */,
+				C380D260239A12DF009CC041 /* Bound Side Angle(Right) .mp4 */,
+				C380D1F1239A1287009CC041 /* Bridge(Left) .mp4 */,
+				C380D208239A128B009CC041 /* Bridge(Right) .mp4 */,
+				C380D1FE239A1289009CC041 /* Cabel CrossOver Flys.mp4 */,
+				C380D203239A128A009CC041 /* Cabel Incline Pushdown.mp4 */,
+				C380D1FD239A1289009CC041 /* Cat Camel.mp4 */,
+				C380D20C239A128C009CC041 /* Childs Pose .mp4 */,
+				C380D215239A128E009CC041 /* Chin-ups.mp4 */,
+				C380D1E7239A1285009CC041 /* Close Grip Bench Press .mp4 */,
+				C380D1D7239A1282009CC041 /* Cobra .mp4 */,
+				C380D1E0239A1284009CC041 /* Decline Dumbbell Bench Press .mp4 */,
+				C380D1FF239A1289009CC041 /* Decline Press .mp4 */,
+				C380D1E2239A1284009CC041 /* Downward Facing Dog .mp4 */,
+				C380D20E239A128D009CC041 /* Dumbbell Flys .mp4 */,
+				C380D206239A128B009CC041 /* Dumbbell Press .mp4 */,
+				C380D202239A128A009CC041 /* Dumbbell Pullovers .mp4 */,
+				C380D211239A128D009CC041 /* Forearm Plank .mp4 */,
+				C380D219239A128F009CC041 /* Incline Dumbbell Flys .mp4 */,
+				C380D1EB239A1286009CC041 /* Incline Dumbbell Press .mp4 */,
+				C380D205239A128B009CC041 /* Incline Press .mp4 */,
+				C380D207239A128B009CC041 /* inverted rows.mp4 */,
+				C380D1E9239A1285009CC041 /* Lat Pulldown.mp4 */,
+				C380D1E4239A1284009CC041 /* Locust Pose Variation .mp4 */,
+				C380D1F9239A1288009CC041 /* Low Lunges(Left) .mp4 */,
+				C380D1EE239A1286009CC041 /* Low Lunges(Right) .mp4 */,
+				C380D20D239A128C009CC041 /* Machine Reverse Fly.mp4 */,
+				C380D1F4239A1287009CC041 /* Machine T-Bar Rows.mp4 */,
+				C380D1E8239A1285009CC041 /* One Arm Dumbbell Rows.mp4 */,
+				C380D1DC239A1283009CC041 /* One Arm Pushup .mp4 */,
+				C380D1D6239A1282009CC041 /* Parallel Bar Dips .mp4 */,
+				C380D1DD239A1283009CC041 /* Pec Deck Flys .mp4 */,
+				C380D1F0239A1287009CC041 /* Prayer Pose .mp4 */,
+				C380D210239A128D009CC041 /* Pull ups.mp4 */,
+				C380D1E3239A1284009CC041 /* Push-Ups .mp4 */,
+				C380D217239A128E009CC041 /* Seated Cable Rows.mp4 */,
+				C380D212239A128D009CC041 /* Seated Side Bend(Left) .mp4 */,
+				C380D213239A128E009CC041 /* Seated Side Bend(Right) .mp4 */,
+				C380D1F5239A1288009CC041 /* Seated Spinal Twist(Left) .mp4 */,
+				C380D1EC239A1286009CC041 /* Seated Spinal Twist(Right) .mp4 */,
+				C380D1D8239A1282009CC041 /* Shoulder Expansion .mp4 */,
+				C380D1DA239A1282009CC041 /* Side Angle(Left) .mp4 */,
+				C380D1FA239A1289009CC041 /* Side Angle(Right) .mp4 */,
+				C380D1FB239A1289009CC041 /* Single Leg Downward Dog(Left) .mp4 */,
+				C380D216239A128E009CC041 /* Single Leg Downward Dog(Right) .mp4 */,
+				C380D1E6239A1285009CC041 /* Standig Forward Fold .mp4 */,
+				C380D1F3239A1287009CC041 /* Standing Side Bend .mp4 */,
+				C380D1DE239A1283009CC041 /* Straight-Arm Lat Pull Down.mp4 */,
+				C380D1F6239A1288009CC041 /* Superman.mp4 */,
+				C380D218239A128E009CC041 /* Tree(Left) .mp4 */,
+				C380D1F8239A1288009CC041 /* Tree(Right) .mp4 */,
+				C380D1D9239A1282009CC041 /* Twisted Chair(Left) .mp4 */,
+				C380D200239A128A009CC041 /* Twisted Chair(Right) .mp4 */,
+				C380D1ED239A1286009CC041 /* V-Bar Lat PullDown.mp4 */,
+				C380D1E1239A1284009CC041 /* Warrior I .mp4 */,
+				C380D1DB239A1283009CC041 /* Warrior II(Left) .mp4 */,
+				C380D1F2239A1287009CC041 /* Warrior II(Right) .mp4 */,
+				C380D1E5239A1285009CC041 /* Warrior III(Left) .mp4 */,
+				C380D1EF239A1286009CC041 /* Warrior III(Right) .mp4 */,
+				C380D1D5239A1282009CC041 /* Wind-Relieving Pose Variation(Left) .mp4 */,
+				C380D1FC239A1289009CC041 /* Yoga Squat .mp4 */,
+				C380D1C4239A1268009CC041 /* CY1.mp4 */,
+				C380D1C9239A1269009CC041 /* CY2.mp4 */,
+				C380D1BF239A1267009CC041 /* CY3.mp4 */,
+				C380D1C5239A1268009CC041 /* CY4.mp4 */,
+				C380D1C7239A1268009CC041 /* CY5.mp4 */,
+				C380D1C1239A1267009CC041 /* CY6.mp4 */,
+				C380D1C6239A1268009CC041 /* CY7.mp4 */,
+				C380D1C2239A1268009CC041 /* CY8.mp4 */,
+				C380D1C0239A1267009CC041 /* CY9.mp4 */,
+				C380D1C3239A1268009CC041 /* CY10.mp4 */,
+				C380D1C8239A1269009CC041 /* CY11.mp4 */,
+				C380D198239A1211009CC041 /* SS1.mp4 */,
+				C380D1A2239A1213009CC041 /* SS2.mp4 */,
+				C380D19C239A1212009CC041 /* SS3.mp4 */,
+				C380D197239A1210009CC041 /* SS4.mp4 */,
+				C380D19D239A1212009CC041 /* SS5.mp4 */,
+				C380D19A239A1211009CC041 /* SS6.mp4 */,
+				C380D19E239A1212009CC041 /* SS7.mp4 */,
+				C380D1A3239A1213009CC041 /* SS8.mp4 */,
+				C380D1A1239A1212009CC041 /* SS9.mp4 */,
+				C380D199239A1211009CC041 /* SS10.mp4 */,
+				C380D1A0239A1212009CC041 /* SS11.mp4 */,
+				C380D19F239A1212009CC041 /* SS12.mp4 */,
+				C380D1A4239A1213009CC041 /* SS13.mp4 */,
+				C380D19B239A1211009CC041 /* SS14.mp4 */,
+				C380D17B239A1206009CC041 /* TVV1.mp4 */,
+				C380D17C239A1206009CC041 /* TVV2.mp4 */,
+				C380D185239A1208009CC041 /* TVV3.mp4 */,
+				C380D183239A1208009CC041 /* TVV4.mp4 */,
+				C380D181239A1208009CC041 /* TVV5.mp4 */,
+				C380D17F239A1207009CC041 /* TVV6.mp4 */,
+				C380D186239A1209009CC041 /* TVV7.mp4 */,
+				C380D17D239A1207009CC041 /* TVV8.mp4 */,
+				C380D17E239A1207009CC041 /* TVV9.mp4 */,
+				C380D187239A1209009CC041 /* TVV10.mp4 */,
+				C380D182239A1208009CC041 /* TVV11.mp4 */,
+				C380D184239A1208009CC041 /* TVV12.mp4 */,
+				C380D188239A1209009CC041 /* TVV13.mp4 */,
+				C380D180239A1208009CC041 /* TVV14.mp4 */,
+				C380D169239A11F4009CC041 /* YB1.mp4 */,
+				C380D16B239A11F5009CC041 /* YB2.mp4 */,
+				C380D161239A11F3009CC041 /* YB3.mp4 */,
+				C380D162239A11F3009CC041 /* YB4.mp4 */,
+				C380D16C239A11F5009CC041 /* YB5.mp4 */,
+				C380D166239A11F4009CC041 /* YB6.mp4 */,
+				C380D165239A11F3009CC041 /* YB7.mp4 */,
+				C380D163239A11F3009CC041 /* YB8.mp4 */,
+				C380D167239A11F4009CC041 /* YB9.mp4 */,
+				C380D16A239A11F4009CC041 /* YB10.mp4 */,
+				C380D16D239A11F5009CC041 /* YB11.mp4 */,
+				C380D168239A11F4009CC041 /* YB12.mp4 */,
+				C380D164239A11F3009CC041 /* YB13.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		C3AFFC5E239A0D32000CD0B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3AFFC68239A0D33000CD0B7 /* SQLite.framework */,
+				C3AFFC6A239A0D33000CD0B7 /* SQLiteTests iOS.xctest */,
+				C3AFFC6C239A0D33000CD0B7 /* SQLite.framework */,
+				C3AFFC6E239A0D33000CD0B7 /* SQLiteTests Mac.xctest */,
+				C3AFFC70239A0D33000CD0B7 /* SQLite.framework */,
+				C3AFFC72239A0D33000CD0B7 /* SQLiteTests tvOS.xctest */,
+				C3AFFC74239A0D33000CD0B7 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D06A51A833F8EA53ACEE23F5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +743,7 @@
 				781D01A01F7B518A003385EE /* Resources */,
 				444D7CF7D995A8D13B869897 /* [CP] Embed Pods Frameworks */,
 				D13FD334AF9F39D65DE272E2 /* [CP] Copy Pods Resources */,
+				C3AFFC77239A0DA3000CD0B7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -174,20 +761,20 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Victor Kenzo Nawa";
 				TargetAttributes = {
 					781D01A11F7B518A003385EE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 2L9EEARC9G;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = UZJNHCBBYB;
+						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 781D019D1F7B518A003385EE /* Build configuration list for PBXProject "24do" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -196,6 +783,12 @@
 			mainGroup = 781D01991F7B518A003385EE;
 			productRefGroup = 781D01A31F7B518A003385EE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C3AFFC5E239A0D32000CD0B7 /* Products */;
+					ProjectRef = C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				781D01A11F7B518A003385EE /* 24do */,
@@ -203,11 +796,188 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C3AFFC68239A0D33000CD0B7 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = C3AFFC67239A0D33000CD0B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3AFFC6A239A0D33000CD0B7 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = C3AFFC69239A0D33000CD0B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3AFFC6C239A0D33000CD0B7 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = C3AFFC6B239A0D33000CD0B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3AFFC6E239A0D33000CD0B7 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = C3AFFC6D239A0D33000CD0B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3AFFC70239A0D33000CD0B7 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = C3AFFC6F239A0D33000CD0B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3AFFC72239A0D33000CD0B7 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = C3AFFC71239A0D33000CD0B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3AFFC74239A0D33000CD0B7 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = C3AFFC73239A0D33000CD0B7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		781D01A01F7B518A003385EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C380D268239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 in Resources */,
+				C380D266239A1336009CC041 /* chuttu.mp3 in Resources */,
+				C380D264239A132F009CC041 /* timer.mp4 in Resources */,
+				C380D1CA239A1269009CC041 /* CY3.mp4 in Resources */,
+				C380D1CB239A1269009CC041 /* CY9.mp4 in Resources */,
+				C380D21A239A128F009CC041 /* Wind-Relieving Pose Variation(Left) .mp4 in Resources */,
+				C380D21B239A128F009CC041 /* Parallel Bar Dips .mp4 in Resources */,
+				C380D21C239A128F009CC041 /* Cobra .mp4 in Resources */,
+				C380D21D239A128F009CC041 /* Shoulder Expansion .mp4 in Resources */,
+				C380D21E239A128F009CC041 /* Twisted Chair(Left) .mp4 in Resources */,
+				C380D21F239A128F009CC041 /* Side Angle(Left) .mp4 in Resources */,
+				C380D220239A128F009CC041 /* Warrior II(Left) .mp4 in Resources */,
+				C380D221239A128F009CC041 /* One Arm Pushup .mp4 in Resources */,
+				C380D222239A128F009CC041 /* Pec Deck Flys .mp4 in Resources */,
+				C380D223239A128F009CC041 /* Straight-Arm Lat Pull Down.mp4 in Resources */,
+				C380D224239A128F009CC041 /* Accomplished Pose With Eagle Arms(Left) .mp4 in Resources */,
+				C380D225239A128F009CC041 /* Decline Dumbbell Bench Press .mp4 in Resources */,
+				C380D226239A128F009CC041 /* Warrior I .mp4 in Resources */,
+				C380D227239A128F009CC041 /* Downward Facing Dog .mp4 in Resources */,
+				C380D228239A128F009CC041 /* Push-Ups .mp4 in Resources */,
+				C380D229239A128F009CC041 /* Locust Pose Variation .mp4 in Resources */,
+				C380D22A239A128F009CC041 /* Warrior III(Left) .mp4 in Resources */,
+				C380D22B239A128F009CC041 /* Standig Forward Fold .mp4 in Resources */,
+				C380D22C239A128F009CC041 /* Close Grip Bench Press .mp4 in Resources */,
+				C380D22D239A128F009CC041 /* One Arm Dumbbell Rows.mp4 in Resources */,
+				C380D22E239A128F009CC041 /* Lat Pulldown.mp4 in Resources */,
+				C380D22F239A128F009CC041 /* Bench Press.mp4 in Resources */,
+				C380D230239A128F009CC041 /* Incline Dumbbell Press .mp4 in Resources */,
+				C380D231239A128F009CC041 /* Seated Spinal Twist(Right) .mp4 in Resources */,
+				C380D232239A128F009CC041 /* V-Bar Lat PullDown.mp4 in Resources */,
+				C380D233239A128F009CC041 /* Low Lunges(Right) .mp4 in Resources */,
+				C380D234239A128F009CC041 /* Warrior III(Right) .mp4 in Resources */,
+				C380D235239A128F009CC041 /* Prayer Pose .mp4 in Resources */,
+				C380D236239A128F009CC041 /* Bridge(Left) .mp4 in Resources */,
+				C380D237239A128F009CC041 /* Warrior II(Right) .mp4 in Resources */,
+				C380D238239A128F009CC041 /* Standing Side Bend .mp4 in Resources */,
+				C380D239239A128F009CC041 /* Machine T-Bar Rows.mp4 in Resources */,
+				C380D23A239A128F009CC041 /* Seated Spinal Twist(Left) .mp4 in Resources */,
+				C380D23B239A128F009CC041 /* Superman.mp4 in Resources */,
+				C380D23C239A128F009CC041 /* Bound Side Angle(Left) .mp4 in Resources */,
+				C380D23D239A128F009CC041 /* Tree(Right) .mp4 in Resources */,
+				C380D23E239A128F009CC041 /* Low Lunges(Left) .mp4 in Resources */,
+				C380D23F239A128F009CC041 /* Side Angle(Right) .mp4 in Resources */,
+				C380D240239A128F009CC041 /* Single Leg Downward Dog(Left) .mp4 in Resources */,
+				C380D241239A128F009CC041 /* Yoga Squat .mp4 in Resources */,
+				C380D242239A128F009CC041 /* Cat Camel.mp4 in Resources */,
+				C380D243239A128F009CC041 /* Cabel CrossOver Flys.mp4 in Resources */,
+				C380D244239A128F009CC041 /* Decline Press .mp4 in Resources */,
+				C380D245239A128F009CC041 /* Twisted Chair(Right) .mp4 in Resources */,
+				C380D246239A128F009CC041 /* Boat .mp4 in Resources */,
+				C380D247239A128F009CC041 /* Dumbbell Pullovers .mp4 in Resources */,
+				C380D248239A128F009CC041 /* Cabel Incline Pushdown.mp4 in Resources */,
+				C380D249239A128F009CC041 /* Bent Over Row.mp4 in Resources */,
+				C380D24A239A128F009CC041 /* Incline Press .mp4 in Resources */,
+				C380D24B239A128F009CC041 /* Dumbbell Press .mp4 in Resources */,
+				C380D24C239A128F009CC041 /* inverted rows.mp4 in Resources */,
+				C380D24D239A128F009CC041 /* Bridge(Right) .mp4 in Resources */,
+				C380D24E239A128F009CC041 /* Accomplished Pose With Eagle Arms(Right) .mp4 in Resources */,
+				C380D24F239A128F009CC041 /* Barbell PullOver.mp4 in Resources */,
+				C380D250239A128F009CC041 /* Big Toes Pose Variation .mp4 in Resources */,
+				C380D251239A128F009CC041 /* Childs Pose .mp4 in Resources */,
+				C380D252239A128F009CC041 /* Machine Reverse Fly.mp4 in Resources */,
+				C380D253239A128F009CC041 /* Dumbbell Flys .mp4 in Resources */,
+				C380D254239A128F009CC041 /* Back Lat Pulldown.mp4 in Resources */,
+				C380D255239A128F009CC041 /* Pull ups.mp4 in Resources */,
+				C380D256239A128F009CC041 /* Forearm Plank .mp4 in Resources */,
+				C380D257239A128F009CC041 /* Seated Side Bend(Left) .mp4 in Resources */,
+				C380D258239A128F009CC041 /* Seated Side Bend(Right) .mp4 in Resources */,
+				C380D259239A128F009CC041 /* Bound Side Angle(Right) .mp4 in Resources */,
+				C380D25A239A128F009CC041 /* Chin-ups.mp4 in Resources */,
+				C380D25B239A128F009CC041 /* Single Leg Downward Dog(Right) .mp4 in Resources */,
+				C380D25C239A128F009CC041 /* Seated Cable Rows.mp4 in Resources */,
+				C380D25D239A128F009CC041 /* Tree(Left) .mp4 in Resources */,
+				C380D25E239A128F009CC041 /* Incline Dumbbell Flys .mp4 in Resources */,
+				C380D1CC239A1269009CC041 /* CY6.mp4 in Resources */,
+				C380D1CD239A1269009CC041 /* CY8.mp4 in Resources */,
+				C380D1CE239A1269009CC041 /* CY10.mp4 in Resources */,
+				C380D1CF239A1269009CC041 /* CY1.mp4 in Resources */,
+				C380D1D0239A1269009CC041 /* CY4.mp4 in Resources */,
+				C380D1D1239A1269009CC041 /* CY7.mp4 in Resources */,
+				C380D1D2239A1269009CC041 /* CY5.mp4 in Resources */,
+				C380D1D3239A1269009CC041 /* CY11.mp4 in Resources */,
+				C380D1D4239A1269009CC041 /* CY2.mp4 in Resources */,
+				C380D1A5239A1213009CC041 /* SS4.mp4 in Resources */,
+				C380D1A6239A1213009CC041 /* SS1.mp4 in Resources */,
+				C380D1A7239A1213009CC041 /* SS10.mp4 in Resources */,
+				C380D1A8239A1213009CC041 /* SS6.mp4 in Resources */,
+				C380D1A9239A1213009CC041 /* SS14.mp4 in Resources */,
+				C380D1AA239A1213009CC041 /* SS3.mp4 in Resources */,
+				C380D1AB239A1213009CC041 /* SS5.mp4 in Resources */,
+				C380D1AC239A1213009CC041 /* SS7.mp4 in Resources */,
+				C380D1AD239A1213009CC041 /* SS12.mp4 in Resources */,
+				C380D1AE239A1213009CC041 /* SS11.mp4 in Resources */,
+				C380D1AF239A1213009CC041 /* SS9.mp4 in Resources */,
+				C380D1B0239A1213009CC041 /* SS2.mp4 in Resources */,
+				C380D1B1239A1213009CC041 /* SS8.mp4 in Resources */,
+				C380D1B2239A1213009CC041 /* SS13.mp4 in Resources */,
+				C380D16E239A11F5009CC041 /* YB3.mp4 in Resources */,
+				C380D16F239A11F5009CC041 /* YB4.mp4 in Resources */,
+				C380D170239A11F5009CC041 /* YB8.mp4 in Resources */,
+				C380D171239A11F5009CC041 /* YB13.mp4 in Resources */,
+				C380D172239A11F5009CC041 /* YB7.mp4 in Resources */,
+				C380D173239A11F5009CC041 /* YB6.mp4 in Resources */,
+				C380D174239A11F5009CC041 /* YB9.mp4 in Resources */,
+				C380D175239A11F5009CC041 /* YB12.mp4 in Resources */,
+				C380D176239A11F5009CC041 /* YB1.mp4 in Resources */,
+				C380D177239A11F5009CC041 /* YB10.mp4 in Resources */,
+				C380D178239A11F5009CC041 /* YB2.mp4 in Resources */,
+				C380D179239A11F5009CC041 /* YB5.mp4 in Resources */,
+				C380D17A239A11F5009CC041 /* YB11.mp4 in Resources */,
+				C380D189239A1209009CC041 /* TVV1.mp4 in Resources */,
+				C380D18A239A1209009CC041 /* TVV2.mp4 in Resources */,
+				C380D18B239A1209009CC041 /* TVV8.mp4 in Resources */,
+				C380D18C239A1209009CC041 /* TVV9.mp4 in Resources */,
+				C380D18D239A1209009CC041 /* TVV6.mp4 in Resources */,
+				C380D18E239A1209009CC041 /* TVV14.mp4 in Resources */,
+				C380D18F239A1209009CC041 /* TVV5.mp4 in Resources */,
+				C380D190239A1209009CC041 /* TVV11.mp4 in Resources */,
+				C380D191239A1209009CC041 /* TVV4.mp4 in Resources */,
+				C380D192239A1209009CC041 /* TVV12.mp4 in Resources */,
+				C380D193239A1209009CC041 /* TVV3.mp4 in Resources */,
+				C380D194239A1209009CC041 /* TVV7.mp4 in Resources */,
+				C380D195239A1209009CC041 /* TVV10.mp4 in Resources */,
+				C380D196239A1209009CC041 /* TVV13.mp4 in Resources */,
+				C39FD24C239B5765003C1B05 /* private_policy.html in Resources */,
 				781D01B31F7B518A003385EE /* LaunchScreen.storyboard in Resources */,
 				781D01B01F7B518A003385EE /* Assets.xcassets in Resources */,
 				781D01AB1F7B518A003385EE /* Main.storyboard in Resources */,
@@ -275,17 +1045,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C380D154239A1000009CC041 /* CustomWorkoutVC.swift in Sources */,
+				C380D145239A1000009CC041 /* CustomExerciseCell.swift in Sources */,
+				C380D141239A1000009CC041 /* TimerVC.swift in Sources */,
 				782F0A611F8570640012D245 /* PlanCell.swift in Sources */,
 				781D01A81F7B518A003385EE /* ViewController.swift in Sources */,
+				C380D152239A1000009CC041 /* CategoryCell.swift in Sources */,
 				784E61A31F85E24C0065AA99 /* ResizeableView.swift in Sources */,
+				C380D140239A1000009CC041 /* ReportVC.swift in Sources */,
+				C380D143239A1000009CC041 /* HistoryVC.swift in Sources */,
+				C380D148239A1000009CC041 /* OneByOneMusic.swift in Sources */,
+				C380D14E239A1000009CC041 /* CustomWorkoutCelll.swift in Sources */,
+				C380D151239A1000009CC041 /* ExerciseDayNumber.swift in Sources */,
+				C380D150239A1000009CC041 /* MenuViewController.swift in Sources */,
+				C380D142239A1000009CC041 /* CustomPlanVC.swift in Sources */,
+				C380D14C239A1000009CC041 /* SlideInTransition.swift in Sources */,
+				C39FD24A239B5473003C1B05 /* Setting VC.swift in Sources */,
+				C380D144239A1000009CC041 /* DietOfThe Day.swift in Sources */,
 				78D3D7C71F7E11C000866269 /* DataManager.swift in Sources */,
 				781D01A61F7B518A003385EE /* AppDelegate.swift in Sources */,
 				7870807A1F7DF89500C63D75 /* TaskVC.swift in Sources */,
+				C380D146239A1000009CC041 /* GymBackCell.swift in Sources */,
+				C380D156239A1000009CC041 /* MealPlanVC.swift in Sources */,
 				782F0A5F1F856B1E0012D245 /* PlanVC.swift in Sources */,
+				C380D157239A1000009CC041 /* PlayVideoVC.swift in Sources */,
+				C380D14D239A1000009CC041 /* Customisation.swift in Sources */,
+				C380D153239A1000009CC041 /* AllExercisesCell.swift in Sources */,
 				787080761F7DF01A00C63D75 /* DesignableView.swift in Sources */,
+				C380D149239A1000009CC041 /* AllExercisesVC.swift in Sources */,
+				C380D14B239A1000009CC041 /* GymBackVC.swift in Sources */,
+				C380D147239A1000009CC041 /* HomeViewController.swift in Sources */,
 				784F96771F81C00E0035D673 /* 24do.xcdatamodeld in Sources */,
+				C380D14A239A1000009CC041 /* GuideWorkoutVC.swift in Sources */,
+				C39FD24E239B596D003C1B05 /* WebViewVC.swift in Sources */,
 				78AC37521F7F405B0024D11F /* GradientView.swift in Sources */,
 				78AC37501F7F3AEE0024D11F /* ViewControllerTableViewCell.swift in Sources */,
+				C380D155239A1000009CC041 /* DaysVC.swift in Sources */,
+				C380D14F239A1000009CC041 /* DietPlanCell.swift in Sources */,
 				7871D3D61F872E3000352F68 /* taskActionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +1112,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -326,6 +1123,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -333,6 +1131,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -372,6 +1171,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -382,6 +1182,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -389,6 +1190,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -422,13 +1224,18 @@
 			baseConfigurationReference = 0C3E0FAEB4E0BC3A92FE5D44 /* Pods-24do.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2L9EEARC9G;
+				DEVELOPMENT_TEAM = UZJNHCBBYB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/24do/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenzonawa.24do;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.gymAndremeda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -438,13 +1245,18 @@
 			baseConfigurationReference = 1906DB35D96C8E1565E224BA /* Pods-24do.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2L9EEARC9G;
+				DEVELOPMENT_TEAM = UZJNHCBBYB;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/24do/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kenzonawa.24do;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.gymAndremeda;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

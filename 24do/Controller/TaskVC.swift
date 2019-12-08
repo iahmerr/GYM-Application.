@@ -116,7 +116,7 @@ class TaskVC: UIViewController {
         
         UNUserNotificationCenter.current().add(request, withCompletionHandler: { error in
             if error != nil {
-                print(error)
+                print(error!)
                 completion(false)
             } else {
                 completion(true)

@@ -2,5 +2,6 @@ platform :ios, '9.0'
 
 target '24do' do
     use_frameworks!
+pod 'Google-Mobile-Ads-SDK'
 
 end
