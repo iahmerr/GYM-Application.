@@ -9,9 +9,13 @@
 import UIKit
 import AVFoundation
 import AVKit
+import GoogleMobileAds
 
-class PlayVideoVC: UIViewController {
-
+class PlayVideoVC: UIViewController, GADBannerViewDelegate {
+   
+    
+    
+    @IBOutlet weak var bannerView: GADBannerView!
     @IBOutlet weak var videoView: UIView!
     var player: AVPlayer!
     var audioPlayer = AVAudioPlayer()
@@ -27,8 +31,14 @@ class PlayVideoVC: UIViewController {
     @IBOutlet weak var musicIcon: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        bannerView.isHidden = true
+               bannerView.delegate = self
         Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: Selector(("FullWorkOut")), userInfo: nil, repeats: true)
             FullWorkOut()
+        bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+               bannerView.adSize = kGADAdSizeSmartBannerPortrait
+               bannerView.rootViewController = self
+               bannerView.load(GADRequest())
 
        // print(videoNameArray)
         //playVideo()
@@ -107,6 +117,12 @@ class PlayVideoVC: UIViewController {
         music = false
         
     }
+    func adView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: GADRequestError) {
+           bannerView.isHidden = true
+       }
+    func adViewDidReceiveAd(_ bannerView: GADBannerView) {
+           bannerView.isHidden = false
+       }
        
     
 

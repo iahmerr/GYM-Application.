@@ -9,8 +9,9 @@
 // ad: banner ap : ca-app-pub-4137461363067972/2278658685
 
 import UIKit
+import GoogleMobileAds
 
-class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
+class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
    
     let transiton = SlideInTransition()
     let defaults  = UserDefaults.standard
@@ -29,6 +30,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     var hours = 0
     var minutes = 0
     var seconds = 0
+    var interstitial: GADInterstitial!
     
     
     
@@ -45,6 +47,10 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         workoutLabel.text = String(workout)
         kalLabel.text  = String(kalBurn)
        print(seconds)
+        interstitial = GADInterstitial(adUnitID: "ca-app-pub-3940256099942544/4411468910")
+        
+        let req = GADRequest()
+        interstitial.load(req)
          
         tableView.delegate = self
         tableView.dataSource = self
@@ -122,24 +128,29 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         case .MealPlan:
             let vc = storyboard.instantiateViewController(withIdentifier: "MealPlan") as! MealPlanVC
             vc.modalPresentationStyle = .fullScreen
+            gettingAdReady()
             self.navigationController?.pushViewController(vc, animated: true)
             
         case .GuideWorkout:
             let vc = storyboard.instantiateViewController(withIdentifier: "GuideWorkout") as! GuideWorkoutVC
             vc.modalPresentationStyle = .fullScreen
+            gettingAdReady()
             self.navigationController?.pushViewController(vc, animated: true)
         case .history:
             let vc = storyboard.instantiateViewController(withIdentifier: "historyVC") as! HistoryVC
             vc.modalPresentationStyle = .fullScreen
+            gettingAdReady()
             self.navigationController?.pushViewController(vc, animated: true)
         case .reminder:
             let vc = storyboard.instantiateViewController(withIdentifier: "reminderVC") as! ViewController
             vc.modalPresentationStyle = .fullScreen
+            gettingAdReady()
             self.navigationController?.pushViewController(vc, animated: true)
             
         case .customEx:
             let vc = storyboard.instantiateViewController(withIdentifier: "CustomPlanVC") as! CustomPlanVC
             vc.modalPresentationStyle = .fullScreen
+            gettingAdReady()
             self.navigationController?.pushViewController(vc, animated: true)
             
         case .report:
@@ -148,11 +159,13 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
 //            vc.hours.text = String(self.hours)
 //            vc.minutes.text = String(self.minutes)
 //            vc.seconds.text = String(self.seconds)
+            gettingAdReady()
             self.navigationController?.pushViewController(vc, animated: true)
         case .setting:
             let vc = storyboard.instantiateViewController(withIdentifier: "SettingVC") as! Setting_VC
             vc.modalPresentationStyle = .fullScreen
-            self.navigationController?.pushViewController(vc, animated: true)
+            gettingAdReady()
+           self.navigationController?.pushViewController(vc, animated: true)
         default:
             break
         }
@@ -200,6 +213,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         vc.exImages = exImages as! [UIImage]
         vc.exName = exName
             vc.index = num
+            gettingAdReady ()
       
         }
         else if indexPath.row == 1 {
@@ -207,6 +221,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             vc.exImages = GCImages as! [UIImage]
             vc.exName = GCEx
             vc.index = num
+            gettingAdReady()
+           
            
         }
         else if indexPath.row == 2 {
@@ -214,37 +230,46 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             vc.exName = BYName
             vc.exImages = BYImages as! [UIImage]
             vc.index = num
+            gettingAdReady()
+           
         }
         else if indexPath.row == 3 {
             num = 3
             vc.exName = DYName
             vc.exImages = DYImages as! [UIImage]
             vc.index = num
+            gettingAdReady()
         }
         else if indexPath.row == 4 {
             num = 4
             vc.exName = MYName
             vc.exImages = MYImages as! [UIImage]
             vc.index = num
+            gettingAdReady()
         }
         else if indexPath.row == 5 {
             num = 5
             vc.exName = SSName
             vc.exImages = SSImages as! [UIImage]
             vc.index = num
+            gettingAdReady()
         }
         else if indexPath.row == 6 {
             num = 6
             vc.exName = YBName
             vc.exImages = YBImages as! [UIImage]
             vc.index = num
+            gettingAdReady()
         }
         else if indexPath.row == 7 {
             num = 7
             vc.exName = CYName
             vc.exImages = CYImages as! [UIImage]
             vc.index = num
+            gettingAdReady()
         }
+        // intestitial ad here
+        
         self.navigationController?.pushViewController(vc, animated: true)
               tableView.deselectRow(at: indexPath, animated: true)
     }
@@ -274,6 +299,12 @@ extension HomeViewController: UIViewControllerTransitioningDelegate {
         
         
         
+    }
+    func gettingAdReady () {
+        
+        if (interstitial.isReady) {
+            interstitial.present(fromRootViewController: self)
+        }
     }
 }
 
