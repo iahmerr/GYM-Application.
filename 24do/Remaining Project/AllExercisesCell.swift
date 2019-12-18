@@ -4,7 +4,7 @@
 //
 //  Created by Ahmer Hassan on 04/12/2019.
 //  Copyright © 2019 Gary Tokman. All rights reserved.
-//
+// profuct id in purchase : com.ahmer.gymApp.premiumExercise
 
 import UIKit
 

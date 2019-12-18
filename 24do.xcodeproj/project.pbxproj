@@ -171,16 +171,15 @@
 		C380D266239A1336009CC041 /* chuttu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C380D265239A1336009CC041 /* chuttu.mp3 */; };
 		C380D268239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C380D267239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 */; };
 		C39FD240239B3D3C003C1B05 /* Pods_24do.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD587678EF828B13D880BA27 /* Pods_24do.framework */; };
-		C39FD241239B3D3C003C1B05 /* Pods_24do.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD587678EF828B13D880BA27 /* Pods_24do.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C39FD24A239B5473003C1B05 /* Setting VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FD249239B5473003C1B05 /* Setting VC.swift */; };
 		C39FD24C239B5765003C1B05 /* private_policy.html in Resources */ = {isa = PBXBuildFile; fileRef = C39FD24B239B5764003C1B05 /* private_policy.html */; };
 		C39FD24E239B596D003C1B05 /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39FD24D239B596D003C1B05 /* WebViewVC.swift */; };
 		C3AFFC75239A0DA3000CD0B7 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AFFC68239A0D33000CD0B7 /* SQLite.framework */; };
-		C3AFFC76239A0DA3000CD0B7 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3AFFC68239A0D33000CD0B7 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C3E07814239C5FB100D2AB5F /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07810239C5FAA00D2AB5F /* GoogleAppMeasurement.framework */; };
-		C3E07815239C5FB100D2AB5F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07811239C5FAF00D2AB5F /* GoogleMobileAds.framework */; };
-		C3E07816239C5FB100D2AB5F /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07812239C5FB000D2AB5F /* nanopb.framework */; };
-		C3E07817239C5FB100D2AB5F /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E07813239C5FB100D2AB5F /* GoogleUtilities.framework */; };
+		C3E0784023A17FA300D2AB5F /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E0783C23A17FA200D2AB5F /* GoogleUtilities.framework */; };
+		C3E0784123A17FA300D2AB5F /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E0783D23A17FA200D2AB5F /* GoogleMobileAds.framework */; };
+		C3E0784223A17FA300D2AB5F /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E0783E23A17FA200D2AB5F /* nanopb.framework */; };
+		C3E0784323A17FA300D2AB5F /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E0783F23A17FA300D2AB5F /* GoogleAppMeasurement.framework */; };
+		C3E0784623A1941D00D2AB5F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3E0784523A1941D00D2AB5F /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -242,8 +241,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C3AFFC76239A0DA3000CD0B7 /* SQLite.framework in Embed Frameworks */,
-				C39FD241239B3D3C003C1B05 /* Pods_24do.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,14 +424,11 @@
 		C39FD24B239B5764003C1B05 /* private_policy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = private_policy.html; sourceTree = "<group>"; };
 		C39FD24D239B596D003C1B05 /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebViewVC.swift; path = "Remaining Project/WebViewVC.swift"; sourceTree = "<group>"; };
 		C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-prepare-0.12.1/SQLite.xcodeproj"; sourceTree = "<group>"; };
-		C3E077FA239C5C5000D2AB5F /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
-		C3E077FB239C5C5100D2AB5F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
-		C3E077FC239C5C5500D2AB5F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		C3E077FD239C5C5600D2AB5F /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		C3E07810239C5FAA00D2AB5F /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
-		C3E07811239C5FAF00D2AB5F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
-		C3E07812239C5FB000D2AB5F /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
-		C3E07813239C5FB100D2AB5F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		C3E0783C23A17FA200D2AB5F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.52.0/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		C3E0783D23A17FA200D2AB5F /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.52.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		C3E0783E23A17FA200D2AB5F /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		C3E0783F23A17FA300D2AB5F /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		C3E0784523A1941D00D2AB5F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		CD587678EF828B13D880BA27 /* Pods_24do.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_24do.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -443,12 +437,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E07817239C5FB100D2AB5F /* GoogleUtilities.framework in Frameworks */,
+				C3E0784023A17FA300D2AB5F /* GoogleUtilities.framework in Frameworks */,
+				C3E0784623A1941D00D2AB5F /* StoreKit.framework in Frameworks */,
 				C3AFFC75239A0DA3000CD0B7 /* SQLite.framework in Frameworks */,
+				C3E0784323A17FA300D2AB5F /* GoogleAppMeasurement.framework in Frameworks */,
+				C3E0784223A17FA300D2AB5F /* nanopb.framework in Frameworks */,
+				C3E0784123A17FA300D2AB5F /* GoogleMobileAds.framework in Frameworks */,
 				C39FD240239B3D3C003C1B05 /* Pods_24do.framework in Frameworks */,
-				C3E07816239C5FB100D2AB5F /* nanopb.framework in Frameworks */,
-				C3E07815239C5FB100D2AB5F /* GoogleMobileAds.framework in Frameworks */,
-				C3E07814239C5FB100D2AB5F /* GoogleAppMeasurement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,10 +453,6 @@
 		781D01991F7B518A003385EE = {
 			isa = PBXGroup;
 			children = (
-				C3E07810239C5FAA00D2AB5F /* GoogleAppMeasurement.framework */,
-				C3E07811239C5FAF00D2AB5F /* GoogleMobileAds.framework */,
-				C3E07813239C5FB100D2AB5F /* GoogleUtilities.framework */,
-				C3E07812239C5FB000D2AB5F /* nanopb.framework */,
 				C380D267239A133E009CC041 /* Wind-Relieving Pose Variation(Right) .mp4 */,
 				C380D265239A1336009CC041 /* chuttu.mp3 */,
 				C380D263239A132F009CC041 /* timer.mp4 */,
@@ -470,10 +461,6 @@
 				C380D214239A128E009CC041 /* Bound Side Angle(Right) .mp4 */,
 				781D01A41F7B518A003385EE /* 24do */,
 				C3AFFC5D239A0D32000CD0B7 /* SQLite.xcodeproj */,
-				C3E077FA239C5C5000D2AB5F /* GoogleAppMeasurement.framework */,
-				C3E077FC239C5C5500D2AB5F /* GoogleMobileAds.framework */,
-				C3E077FB239C5C5100D2AB5F /* GoogleUtilities.framework */,
-				C3E077FD239C5C5600D2AB5F /* nanopb.framework */,
 				781D01A31F7B518A003385EE /* Products */,
 				D06A51A833F8EA53ACEE23F5 /* Pods */,
 				DD7363724B474F48200F6772 /* Frameworks */,
@@ -725,6 +712,11 @@
 		DD7363724B474F48200F6772 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C3E0784523A1941D00D2AB5F /* StoreKit.framework */,
+				C3E0783F23A17FA300D2AB5F /* GoogleAppMeasurement.framework */,
+				C3E0783D23A17FA200D2AB5F /* GoogleMobileAds.framework */,
+				C3E0783C23A17FA200D2AB5F /* GoogleUtilities.framework */,
+				C3E0783E23A17FA200D2AB5F /* nanopb.framework */,
 				CD587678EF828B13D880BA27 /* Pods_24do.framework */,
 			);
 			name = Frameworks;
@@ -766,7 +758,7 @@
 				TargetAttributes = {
 					781D01A11F7B518A003385EE = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = UZJNHCBBYB;
+						DevelopmentTeam = 2XCFLUY9RK;
 						LastSwiftMigration = 1120;
 						ProvisioningStyle = Automatic;
 					};
@@ -1224,7 +1216,7 @@
 			baseConfigurationReference = 0C3E0FAEB4E0BC3A92FE5D44 /* Pods-24do.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UZJNHCBBYB;
+				DEVELOPMENT_TEAM = 2XCFLUY9RK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1233,7 +1225,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.gymAndremeda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.gymApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -1245,7 +1237,7 @@
 			baseConfigurationReference = 1906DB35D96C8E1565E224BA /* Pods-24do.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = UZJNHCBBYB;
+				DEVELOPMENT_TEAM = 2XCFLUY9RK;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1254,7 +1246,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.gymAndremeda;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahmer.gymApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

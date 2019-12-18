@@ -33,7 +33,7 @@ class PlayVideoVC: UIViewController, GADBannerViewDelegate {
         super.viewDidLoad()
         bannerView.isHidden = true
                bannerView.delegate = self
-        Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: Selector(("FullWorkOut")), userInfo: nil, repeats: true)
+        Timer.scheduledTimer(timeInterval: 5.0, target: self, selector: #selector(PlayVideoVC.FullWorkOut), userInfo: nil, repeats: true)
             FullWorkOut()
         bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
                bannerView.adSize = kGADAdSizeSmartBannerPortrait

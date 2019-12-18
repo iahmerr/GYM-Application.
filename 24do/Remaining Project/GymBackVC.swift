@@ -31,7 +31,8 @@ class GymBackVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         if let items = defaults.array(forKey: "FullHistory") as? [String] {
             historyArray = items
         }
-        if let work = defaults.integer(forKey: "Workout") as? Int {
+        // yahan object ki jagah Int kar do agar error aye toh
+        if let work = defaults.object(forKey: "Workout") as? Int {
             workout = work
             }
         

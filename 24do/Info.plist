@@ -20,6 +20,8 @@
 	<string>2</string>
 	<key>CFBundleVersion</key>
 	<string>3</string>
+	<key>GADApplicationIdentifier</key>
+	<string>ca-app-pub-4137461363067972~1722811836</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -36,7 +38,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>GADApplicationIdentifier</key>
-    <string>ca-app-pub-4137461363067972~1722811836</string>
 </dict>
 </plist>

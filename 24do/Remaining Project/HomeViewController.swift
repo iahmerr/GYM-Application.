@@ -10,8 +10,11 @@
 
 import UIKit
 import GoogleMobileAds
+import StoreKit
 
-class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource,SKPaymentTransactionObserver {
+  
+    
    
     let transiton = SlideInTransition()
     let defaults  = UserDefaults.standard
@@ -31,12 +34,14 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
     var minutes = 0
     var seconds = 0
     var interstitial: GADInterstitial!
+    let productID = "com.ahmer.gymApp.premiumExercise"
     
     
     
     var imagesArray = [String]()
     override func viewDidLoad() {
         super.viewDidLoad()
+        SKPaymentQueue.default().add(self)
         
         navigationController?.navigationBar.barTintColor = UIColor.blue
         navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
@@ -296,10 +301,28 @@ extension HomeViewController: UIViewControllerTransitioningDelegate {
             hoursLabel.text = String(hours)
             secondsLabel.text = String(seconds)
                }
-        
-        
-        
+        }
+    func BuyPremium()  {
+        if SKPaymentQueue.canMakePayments() {
+            let paymentRequest = SKMutablePayment()
+            paymentRequest.productIdentifier = productID
+            SKPaymentQueue.default().add(paymentRequest)
+        }
+        else {
+            print("Can make purchse")
+        }
     }
+    func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
+        for transaction in transactions {
+            if transaction.transactionState == .purchased {
+                // user payment successfull
+                print("transaction sunncess")
+            }
+            else if transaction.transactionState == .failed {
+                print(" transaction failed")
+            }
+        }
+      }
     func gettingAdReady () {
         
         if (interstitial.isReady) {
